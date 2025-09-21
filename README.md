@@ -46,7 +46,7 @@ A complete machine learning application deployed on AWS EC2 with Streamlit, usin
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/yourusername/ml-streamlit-aws.git
+git clone https://github.com/iaidb-co/ML-App.git
 cd ml-streamlit-aws
 ```
 
@@ -99,7 +99,7 @@ ssh -i ml-deployment-key.pem ubuntu@your-ec2-public-ip
 # On EC2 instance:
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3-pip git -y
-git clone https://github.com/yourusername/ml-streamlit-aws.git
+git clone https://github.com/iaidb-co/ML-App.git
 cd ml-streamlit-aws
 pip3 install -r requirements.txt
 
@@ -298,8 +298,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
-
+- **Akash Soman** - *Initial work*
 ## 🙏 Acknowledgments
 
 - AWS for providing Free Tier resources
