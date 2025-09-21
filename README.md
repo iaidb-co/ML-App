@@ -3,24 +3,8 @@
 A complete machine learning application deployed on AWS EC2 with Streamlit, using S3 for data storage and model persistence.
 
 ## 🚀 Live Demo
-**Deployed Application**: `http://your-ec2-public-ip:8501`
+**Deployed Application**: `http://18.141.208.162:8501/`
 
-## 📁 Project Structure
-```
-ml-streamlit-aws/
-├── app.py                 # Main Streamlit application
-├── model.py              # ML model training script
-├── requirements.txt      # Python dependencies
-├── README.md            # This file
-├── setup_scripts/       # Deployment scripts
-│   ├── ec2_setup.sh     # EC2 initialization script
-│   └── deploy.sh        # Deployment script
-├── docs/                # Documentation
-│   ├── aws_setup.md     # AWS setup guide
-│   └── architecture.md  # System architecture
-└── data/               # Local data directory (optional)
-    └── sample_data.csv # Sample dataset
-```
 
 ## 🏗️ Architecture Overview
 
